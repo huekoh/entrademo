@@ -13,6 +13,9 @@ free trial.
 Under the resources folder (src/main/resources), configure an application.properties file with the following:
 
 ```
+spring.thymeleaf.prefix=classpath:/templates/
+spring.thymeleaf.suffix=.html
+
 #Enable related features.
 spring.cloud.azure.active-directory.enabled=true
 # Specifies your Active Directory ID:
