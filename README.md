@@ -10,7 +10,7 @@ free trial.
 ## Using this demo project's set-up
 
 ### Application.properties Configuration
-Configure the application.properties file with the following:
+Under the resources folder (src/main/resources), configure an application.properties file with the following:
 
 ```
 #Enable related features.
@@ -31,3 +31,8 @@ Highly recommend you create your own Azure Active Directory set-up and users ins
 |--------------------------------------|-----------|---------------|
 | user@JustAnIntern.onmicrosoft.com    | Saiej8329 | User          |
 | admin@JustAnIntern.onmicrosoft.com   | Fawkf1293 | Admin         |
+
+### Getting Started
+1. Clean and compile the project by running the following command in the terminal:
+``` mvn clean compile spring-boot:run```
+2. Access the web app at [http://localhost:8080/home](http://localhost:8080/home)
